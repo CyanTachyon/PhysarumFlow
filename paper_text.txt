@@ -1,0 +1,612 @@
+
+
+===== PAGE 1 =====
+REPORTS
+16. J.A.Burns,P.L.Lamy,S.Soter,Icarus40,1(1979). 28. D.Turrini,F.Marzari,H.Beust,Mon.Not.R.Astron.Soc. 40. G.Neukum,B.A.Ivanov,inHazardsDuetoCometsand
+17. J.A.Burns,D.P.Hamilton,F.Mignard,S.Soter,in 391,1029(2008). Asteroids,T.Gehrels,Ed.(Univ.ofArizonaPress,Tucson,
+Physics,Chemistry,andDynamicsofInterplanetary 29. A.J.Verbiscer,M.F.Skrutskie,D.P.Hamilton,Nature AZ,1994),pp.359–416.
+Dust,ASPConferenceSeries104,B.A˚.S.Gustafson, 461,1098(2009). 41. T.Roatschetal.,Planet.SpaceSci.57,83(2009).
+M.S.Hanner,Eds.(AstronomicalSocietyofthePacific, 30. Thisideawasdevelopedinseveralpapers 42. WeacknowledgetheindividualsatCICLOPS(attheSpace
+SanFrancisco,1996),pp.179–182. (18,38,39),butundertheassumptionthatdust ScienceInstituteinBoulder,CO)andJPL(Pasadena,CA),as
+18. B.J.Buratti,M.D.Hicks,K.A.Tryka,M.S.Sittig, fromtheoutersaturnianmoonsformedIapetus’ wellasthemembersandassociatesoftheImagingTeamfor
+R.L.Newburn,Icarus155,375(2002). albedodichotomy. thesuccessfulconductoftheISSexperimentonboardthe
+19. F.Tosietal.,preprintavailableathttp://arxiv.org/abs/ 31. T.V.Johnsonetal.,J.Geophys.Res.SolidEarth88,5789 Cassinispacecraft.ThispaperisdedicatedtoSteveOstro,
+0902.3591(2009). (1983). whoseworkhelpedconsiderablytoexplainthenatureof
+20. BesidesIapetus,Hyperion,Titan,andouter-satellite 32. T.Denk,R.Jaumann,G.Neukum,inLisbon Iapetus’darkterrain.Thisworkhasbeenfundedbythe
+impactsweresuggested;seealso(12). EuroconferenceJupiterAfterGalileoandCassini, GermanAerospaceCenter(DLR)andNASA/JPL.
+21. Reference(18)mentionsanincreaseofthedustfluxby~20%, AbstractsBook17to21June2002,Lisbon,Portugal,
+whereas(35)findsasmuchasafactorof3forsomecases. abstr.no.P-4.1.18,2002,p.118. SupportingOnlineMaterial
+22. D.J.Tholen,B.Zellner,Icarus53,341(1983). 33. B.J.Buratti,J.A.Mosher,Icarus90,1(1991). www.sciencemag.org/cgi/content/full/science.1177088/DC1
+23. TheleadingsidesofthemoonsbeyondMimasandinside 34. M.E.Davies,F.Y.Katayama,Icarus59,199(1984). SOMText
+TitanshouldbesubstantiallycoatedbyE-ringparticles 35. K.J.Zahnle,P.Schenk,H.Levison,L.Dones,Icarus163, Figs.S1toS8
+(24,36,37),makingthemlessusefulforthisargument. 263(2003). TablesS1andS2
+24. B.J.Buratti,J.A.Mosher,T.V.Johnson,Icarus87,339(1990). 36. K.D.Pang,C.C.Voge,J.W.Rhoads,J.M.Ajello, ReferencesandNotes
+25. J.A.Burnsetal.,Science284,1146(1999). J.Geophys.Res.SolidEarth89,9459(1984).
+26. S.S.Sheppard,www.dtm.ciw.edu/users/sheppard/ 37. D.P.Hamilton,J.A.Burns,Science264,550(1994). 1June2009;accepted1December2009
+satellites/satsatdata.html(2009). 38. P.C.Thomas,J.Veverka,Icarus64,414(1985). Publishedonline10December2009;
+27. D.Nesvorný,J.L.A.Alvarellos,L.Dones,H.F.Levison, 39. K.S.Jarvis,F.Vilas,S.M.Larson,M.J.Gaffey,Icarus 10.1126/science.1177088
+Astron.J.126,398(2003). 146,125(2000). Includethisinformationwhencitingthispaper.
+Rules for Biologically Inspired Physarumisalarge,single-celledamoeboid
+organism that forages for patchily distributed
+food sources. The individual plasmodium ini-
+Adaptive Network Design
+tially explores with a relatively contiguous for-
+aging margin to maximize the area searched.
+AtsushiTero,1,2SeijiTakagi,1TetsuSaigusa,3KentaroIto,1DanP.Bebber,4MarkD.Fricker,4 However,behindthemargin,thisisresolvedinto
+Kenji Yumiki,5 Ryo Kobayashi,5,6 ToshiyukiNakagaki1,6* a tubular network linking the discovered food
+sourcesthroughdirectconnections,additionalin-
+Transportnetworksareubiquitousinbothsocialandbiologicalsystems.Robustnetworkperformance termediatejunctions(Steinerpoints)thatreduce
+involvesacomplextrade-offinvolvingcost,transportefficiency,andfaulttolerance.Biological the overall length of the connecting network,
+networkshavebeenhonedbymanycyclesofevolutionaryselectionpressureandarelikelytoyield andtheformationofoccasionalcross-linksthat
+reasonablesolutionstosuchcombinatorialoptimizationproblems.Furthermore,theydevelopwithout improve overall transport efficiency and resil-
+centralizedcontrolandmayrepresentareadilyscalablesolutionforgrowingnetworksingeneral.We ience(11,12).Thegrowthoftheplasmodiumis
+showthattheslimemoldPhysarumpolycephalumformsnetworkswithcomparableefficiency,fault influenced by the characteristics of the sub-
+tolerance,andcosttothoseofreal-worldinfrastructurenetworks—inthiscase,theTokyorailsystem. strate(14)andcanbeconstrainedbyphysical
+Thecoremechanismsneededforadaptivenetworkformationcanbecapturedinabiologically barriers(15)orinfluencedbythelightregime
+inspiredmathematicalmodelthatmaybeusefultoguidenetworkconstructioninotherdomains. (16),facilitatingexperimentalinvestigationof
+therulesunderlyingnetworkformation.Thus,
+Transportnetworksareacriticalpartofthe suchaspowergrids(1,2),financialsystems(3,4), for example, Physarum can find the shortest
+infrastructureneeded to operate amodern airlinebaggage-handlingsystems(5),andrailway path through a maze (15–17) or connect dif-
+industrial society and facilitate efficient networks(6),aswellasthepredictedvulnerabilityof ferent arrays of food sources in an efficient
+movement of people, resources, energy, and systemssuchasinformationnetworks(7)orsupply manner with low total length (TL) yet short
+information. Despite their importance, most net- networks(8)toattack,havehighlightedtheneedto averageminimumdistance(MD)betweenpairs
+workshaveemergedwithoutclearglobaldesign developnetworkswithgreaterintrinsicresilience. of food sources (FSs), with a high degree of
+principles and are constrained by the priorities Someorganismsgrowintheformofaninter- faulttolerance(FT)toaccidentaldisconnection
+imposedattheirinitiation.Thus,themainmotiva- connectednetworkaspartoftheirnormalforag- (11,18,19).Capturingtheessenceofthissys-
+tion historically was to achieve high transport ingstrategytodiscoverandexploitnewresources teminsimplerulesmightbeusefulinguiding
+efficiencyatreasonablecost,butwithcorrespond- (9–12).Suchsystemscontinuouslyadapttotheir the development of decentralized networks in
+inglylessemphasisonmakingsystemstolerantto environmentandmustbalancethecostofproduc- otherdomains.
+interruption or failure. Introducing robustness inganefficientnetworkwiththeconsequencesof WeobservedPhysarumconnectingatemplate
+inevitablyrequiresadditionalredundantpathways evenlimitedfailureinacompetitiveworld.Unlike of36FSsthatrepresentedgeographicallocations
+thatarenotcost-effectiveintheshortterm.Inrecent anthropogenicinfrastructuresystems,thesebiolog- ofcitiesintheTokyoarea,andcomparedtheresult
+years,thespectacularfailureofkeyinfrastructure icalnetworkshavebeensubjectedtosuccessive with the actual rail network in Japan. The
+roundsofevolutionaryselectionandarelikelyto Physarumplasmodiumwasallowedtogrowfrom
+havereachedapointatwhichcost,efficiency,and Tokyo and initially filled much of the available
+1ResearchInstituteforElectronicScience,HokkaidoUniversity,
+Sapporo 060-0812, Japan. 2PRESTO, JST, 4-1-8 Honcho, resilienceareappropriatelybalanced.Drawingin- land space, but then concentrated on FSs by
+Kawaguchi,Saitama,Japan.3GraduateSchoolofEngineering, spirationfrombiologyhasledtousefulapproaches thinningoutthenetworktoleaveasubsetoflarger,
+HokkaidoUniversity,Sapporo060-8628,Japan.4Departmentof toproblem-solvingsuchasneuralnetworks,ge- interconnecting tubes (Fig. 1). An alternative
+PlantSciences,University ofOxford,OxfordOX13RB, UK. neticalgorithms,andefficientsearchroutinesde- protocol, in which the plasmodium was allowed
+5Department of Mathematical andLifeSciences, Hiroshima
+University,Higashi-Hiroshima739-8526,Japan.6JST,CREST,5 velopedfromantcolonyoptimizationalgorithms toextendfullyintheavailablespaceandtheFSs
+Sanbancho,Chiyoda-ku,Tokyo,102-0075,Japan. (13). We exploited the slime mold Physarum werethenpresentedsimultaneously,yieldedsim-
+*To whom correspondence should be addressed. E-mail: polycephalumtodevelopabiologicallyinspired ilarresults.Tocompletethenetworkformation,we
+nakagaki@es.hokudai.ac.jp modelforadaptivenetworkdevelopment. allowed any excess volume of plasmodium to
+www.sciencemag.org SCIENCE VOL327 22JANUARY2010 439
+Downloaded
+from
+https://www.science.org
+at
+University
+of
+California
+Davis
+on
+July
+02,
+2026
+
+===== PAGE 2 =====
+REPORTS
+accumulateonalargeFSoutsidethearena(LFS Fig.1.NetworkformationinPhysa-
+inFig.2A). rum polycephalum. (A) At t = 0, a A D
+Arangeofnetworksolutionswereapparent smallplasmodiumofPhysarumwas
+in replicateexperiments(compareFig.2Awith placedatthelocationofTokyoinan
+Fig. 1F); nonetheless, the topology of many experimentalarenaboundedbythe
+Physarumnetworksboresimilaritytotherealrail Pacific coastline (white border) and
+supplemented with additional food
+network(Fig.2D).Someofthedifferencesmay
+sourcesateachofthemajorcitiesin
+relatetogeographicalfeaturesthatconstraintherail
+theregion(whitedots).Thehorizontal
+network, such as mountainous terrain or lakes.
+TheseconstraintswereimposedonthePhysarum widthofeachpanelis17cm.(BtoF)
+Theplasmodiumgrewout fromthe
+networkbyvaryingtheintensityofillumination,as
+initialfoodsourcewithacontiguous 0 hr 11 hr
+the plasmodium avoids bright light (16). This
+margin and progressively colonized
+yielded networks (Fig. 2, B and C) with greater eachofthefoodsources.Behindthe B E
+visualcongruencetotherealrailnetwork(Fig.2D).
+growingmargin,thespreadingmyce-
+Networks were also compared with the minimal liumresolvedintoanetworkoftubes
+spanningtree(MST,Fig.2E),whichistheshortest interconnectingthefoodsources.
+possiblenetworkconnectingallthecitypositions,
+andvariousderivativeswithincreasingnumbersof
+cross-linksadded(e.g.,Fig.2F),culminatingina
+fullyconnectedDelaunaytriangulation,whichrep-
+resentsthemaximallyconnectednetworklinking
+allthecities.
+Theperformanceofeachnetworkwaschar- 5 hr 16 hr
+acterizedbythecost(TL),transportefficiency
+C F
+(MD), and robustness (FT), normalized to the
+correspondingvaluefortheMSTtogiveTL ,
+MST
+MD , and FT . The TL of the Tokyo rail
+MST MST
+networkwasgreaterthantheMSTbyafactor
+of~1.8(i.e.,TL ≈1.8),whereastheaverage
+MST
+TL forPhysarumwas1.75T0.30(n=21).
+MST
+Illuminated networks gave slightly better clus-
+teringaroundthevaluefortherailnetwork(Fig.
+3A).Forcomparison,theDelaunaytriangulation
+was longer than the MST by a factor of ~4.6.
+8 hr 26 hr
+Thus,thecostofthesolutionsfoundbyPhysarum
+closely matched that of the rail network, with
+about30%ofthemaximumpossiblenumberof
+Fig.2.ComparisonofthePhysarum
+A LFS C networkswiththeTokyorailnetwork.
+linksinplace.Thetransportperformanceofthe
+(A)Intheabsenceofillumination,the
+twonetworkswasalsosimilar,withMD of
+MST Physarumnetworkresultedfromeven
+0.85and0.85T0.04fortherailnetworkandthe
+explorationoftheavailablespace.(B) Physarumnetworks,respectively.However,the
+Geographicalconstraintswereimposed
+Physarum networks achieved this with margin- onthedevelopingPhysarumnetwork
+allyloweroverallcost(Fig.3A).
+bymeansofanilluminationmaskto
+Theconversewas truefor thefault tolerance restrictgrowthtomoreshadedareas D
+(FT MST ) in which the real rail network showed correspondingtolow-altituderegions.
+marginally better resilience, close to the lowest Theoceanandinlandlakeswerealso
+levelneededtogivemaximumtolerancetoasingle givenstrongilluminationtoprevent
+randomfailure.Thus,only4%offaultsintherail growth.(CandD)Theresultingnetwork
+network would lead to isolation of any part, (C)wascomparedwiththerailnetwork
+whereas14T4%woulddisconnecttheilluminated intheTokyoarea(D).(EandF)The
+Physarum networks, and 20 T 13% would minimum spanning tree (MST) con- E
+disconnecttheunconstrainedPhysarumnetworks. nectingthesamesetofcitynodes(E) B
+Incontrast,simplyaddingadditionallinkstothe andamodelnetworkconstructedby
+MST to improvenetwork performanceresulted addingadditionallinkstotheMST(F).
+innetworkswithpoorfaulttolerance(Fig.3B).
+Thetrade-offbetweenfaulttoleranceandcost
+wascapturedinasinglebenefit-costmeasure,ex-
+pressedastheratioofFT/TL =a.Ingeneral,
+MST F
+thePhysarumnetworksandtherailnetworkhad
+abenefit/costratioof~0.5foranygivenTL
+MST
+(Fig. 3B). The relationship between different a
+values and transport efficiency (Fig. 3C) high-
+lightedthesimilarityinaggregatebehaviorofthe
+Physarumnetworkwhenconsideringallthreeper-
+formancemeasures(MD ,TL ,andFT ).
+MST MST MST
+440 22JANUARY 2010 VOL327 SCIENCE www.sciencemag.org
+Downloaded
+from
+https://www.science.org
+at
+University
+of
+California
+Davis
+on
+July
+02,
+2026
+
+===== PAGE 3 =====
+Fig.3.Transportperformance, B C resilience, and cost for Physa- 1
+rum networks, model simula-
+tions,andtherealrailnetworks. 0.95
+(A) Transport performance of
+eachnetwork,measuredasthe 0.9
+minimum distance between all
+pairs of nodes, normalized to
+0.85
+the MST (MD ) and plotted
+MST
+against the total length of the
+0.8
+networknormalizedbytheMST
+(TL ) as a measure of cost.
+MST 0.75
+Black circles and blue squares 0 0.1 0.2 0.3 0.4 0.5 0.6 0.7
+representresultsobtainedfrom
+Physarum in the absence or
+presenceofillumination,respectively.Thegreentrianglerepresentstheactual symbolsasin(A).Differentvaluesofthebenefit/costratio,a =FT/TL ,are
+MST
+railnetwork.OpenredcirclesrepresentsimulationresultsasI wasvariedfrom shownasdashedlines.(C)RelationshipbetweenMD anda.Althoughthe
+0 MST
+0.20to7.19atafixedg(=1.80)andinitialrandomfluctuationsofD ij.(B)Fault overall performance of the experiment and that of the real rail network are
+tolerance(FT),measuredastheprobabilityofdisconnectingpartofthenetwork clusteredtogether,thesimulationmodelachievesbetterfaulttoleranceforthe
+withfailureofasinglelink.Crossesrepresentresultsforreferencenetworks;other sametransportefficiency.
+theinflowandoutflowateachinternalnodemust
+balancesothati(i≠1,2),Sj Q ij=0.Thus,fora
+given set of conductivities and selected source
+and sink nodes, the flux through each of the
+networkedgescanbecomputed.
+Toaccommodatetheadaptivebehaviorofthe
+plasmodium,theconductivityofeachtubeevolves
+accordingtodD ij/dt=f(|Q ij|)–D ij.Thefirstterm
+ontherightsidedescribestheexpansionoftubesin
+responsetotheflux.Thesecondtermrepresents
+therateoftubeconstriction,sothatintheabsence
+of flow the tubes will gradually disappear. The
+functionalformf(|Q|)isgivenbyf(|Q|)=|Q|g/(1+
+|Q|g),whichdescribesasigmoidalresponsewhereg
+isaparameterthatcontrolsthenonlinearityoffeed-
+back(g>0).AtypicalsimulationresultwithI =2
+0
+andg=1.8(Fig.4)gaveanetworkwithfeatures
+similartothoseofboththePhysarumsystemand
+therailnetwork(Fig.2,CandD,respectively).
+In general, increasing I promoted the for-
+0
+mationofalternativeroutesthatimprovedper-
+formance by reducing MD and made the
+MST
+Therailnetworkwasembeddedintheclusterof tubesinwhichprotoplasmflows,andnodesare network more fault-tolerant, but with increased
+resultsforthePhysarumnetworkswithamargin- junctionsbetweentubes.Supposethatthepres- cost(Fig.3,AtoC,andfig.S1I).Lowvaluesofg
+ally higher a value for the same transport effi- suresatnodesiandjarep iandp j,respectively, alsogaveagreaterdegreeofcross-linkingwith
+ciency(Fig.3C). andthatthetwonodesareconnectedbyacyl- anincreasednumberofSteinerpoints(fig.S2,A
+Overall,weconcludethatthePhysarumnet- inderoflengthL ijandradiusr ij.Assumingthat andB).Conversely,decreasingI
+0
+(fig.S1A)or
+worksshowedcharacteristicssimilartothoseof flowislaminarandfollowstheHagen-Poiseuille increasingg(fig.S2I)drovethesystemtowarda
+therailnetworkintermsofcost,transportefficien- equation,thefluxthroughthetubeis low-costMST(Fig.2E),butwithaninevitable
+cy,andfaulttolerance.However,thePhysarum decrease in resilience (Fig. 3B). The final net-
+n
+tr
+e
+o
+t
+l
+w
+o
+o
+r
+r
+e
+k
+x
+s
+p
+s
+l
+e
+ic
+lf
+i
+-
+t
+o
+g
+r
+l
+g
+o
+a
+b
+n
+a
+i
+l
+z
+i
+e
+n
+d
+fo
+w
+rm
+ith
+a
+o
+ti
+u
+o
+t
+n
+c
+b
+en
+y
+t
+a
+ra
+p
+li
+r
+z
+o
+e
+c
+d
+es
+c
+s
+on
+o
+-
+f
+Q
+ij
+¼
+(cid:1)r4
+8
+ðp
+h
+i
+L
+−
+ij
+p
+j
+Þ
+¼
+D
+ij
+ðp
+L
+i
+ij
+−p
+j
+Þ
+ð1Þ w
+sto
+o
+c
+rk
+has
+s
+t
+o
+ic
+lu
+v
+ti
+a
+o
+r
+n
+iati
+a
+o
+l
+n
+so
+ass
+d
+i
+e
+g
+p
+n
+e
+e
+n
+d
+d
+t
+e
+o
+d
+th
+s
+e
+li
+s
+g
+ta
+h
+r
+t
+t
+l
+i
+y
+ng
+o
+v
+n
+alu
+th
+e
+e
+s
+selective reinforcement of preferred routes and ofD ij.Judiciousselectionofspecificparameter
+simultaneousremovalofredundantconnections. wherehistheviscosityofthefluid,andD ij= combinations(I
+0
+=0.20,g =1.15) yieldednet-
+Wedevelopedamathematicalmodelforadapt- pr4/8h is a measure of the conductivity of the works with remarkably similar topology and
+ivenetworkconstructiontoemulatethisbehavior, tube.AsthelengthL ijisaconstant,thebehavior metricstotheTokyorailnetwork(fig.S2B).How-
+basedonfeedbackloopsbetweenthethicknessof ofthenetworkisdescribedbytheconductivities, ever,byincreasingI to2andgto1.8,thesimula-
+0
+eachtubeandinternalprotoplasmicflow(18–22) D ij,oftheedges. tionmodelalsoachievedabenefit/costratio(a=
+inwhichhighratesofstreamingstimulateanin- Ateachtimestep,arandomFS(node1)is FT/TL )thatwasbetterthanthoseoftherailor
+MST
+creaseintubediameter,whereastubestendtode- selectedtodriveflowthroughthenetwork,sothe Physarumnetworks,reachingavalueof0.7with
+clineatlowflowrates(23).Theinitialshapeofa fluxincludesasourcetermSj Q 1j=I
+0
+.Asecond an almost identical transport efficiency of 0.85
+plasmodiumisrepresentedbyarandomlymeshed randomFSischosenasasink(node2)witha (Fig.3C).Conversely,theconsequenceofthein-
+latticewitharelativelyfinespacing,asshownin correspondingwithdrawalofI
+0
+suchthatSj Q 2j= creasedTL
+MST
+observedintherailorPhysarum
+Fig. 4 (t = 0). The edges represent plasmodial –I .Astheamountoffluidmustbeconserved, networkswouldbetoconfergreaterresilienceto
+0
+)TSMDM(
+ecnamrofreP
+1 1
+0.
+7 0.6 0.4
+0.95 0.8 0.3
+0.9 0.6
+α=0.2
+0.85 0.4
+0.8 0.2
+0.75 0
+1.0 1.5 2.0 2.5 3.0
+)TF(
+ecnarelot
+tluaF
+1.0 1.5 2.0 2.5 3.0
+)TSMDM(
+ecnamrofreP
+REPORTS
+A
+Cost (TLMST) Cost (TLMST) Efficiency (FT / TLMST)
+Fig. 4. Network dynamics for the
+simulationmodel.Inthistypicaltime
+courseforevolutionofthesimula-
+tion, time (t) is shown in arbitrary
+units;citiesarebluedots.Eachcity
+wasmodeledasasingleFS,apart
+fromTokyo,whichwasanaggregate
+ofsevenFSstomatchtheimportance
+ofTokyoasthecenteroftheregion.
+At the start (t = 0), the available
+space was populated with a finely t=0 t=3000
+meshednetworkofthintubes.Over
+time,manyofthesetubesdiedout,
+whilstalimitednumberoftubesbe-
+cameselectivelythickenedtoyield
+astable,self-organizedsolution.g=
+1.80,I =2.00. 0
+t=1000 t=29950
+www.sciencemag.org SCIENCE VOL327 22JANUARY2010 441
+Downloaded
+from
+https://www.science.org
+at
+University
+of
+California
+Davis
+on
+July
+02,
+2026
+
+===== PAGE 4 =====
+REPORTS
+multiple simultaneous failures at the expense of 2. R.V.Solé,M.Rosas-Casals,B.Corominas-Murtra, 18. A.Tero,K.Yumiki,R.Kobayashi,T.Saigusa,T.Nakagaki,
+increased cost, rather than tolerance to a single S.Valverde,Phys.Rev.E77,026102(2008). TheoryBiosci.127,89(2008).
+3. R.M.May,S.Levin,G.Sugihara,Nature451,893(2008). 19. T.Nakagaki,R.Guy,SoftMatter4,57(2008).
+disconnectionthatisevaluatedbyFT .
+MST 4. J.Kambhu,S.Weidman,N.Krishnan,Econ.PolicyRev. 20. T.Nakagaki,T.Saigusa,A.Tero,R.Kobayashi,in
+Ourbiologicallyinspiredmathematicalmodel 13,1(2007). TopologicalAspectsofCriticalSystemsandNetworks:
+can capture the basic dynamics of network 5. HouseofCommonsTransportCommittee,TheOpeningof ProceedingsoftheInternationalSymposium,K.Yakubo
+adaptability through iteration of local rules and HeathrowTerminal5HC543(StationeryOffice,London, etal.,Eds.(WorldScientific,Singapore,2007),pp.94–100.
+2008). 21. A.Tero,R.Kobayashi,T.Nakagaki,J.Theor.Biol.244,
+producessolutionswithpropertiescomparableto
+6. TrainDerailmentatHatfield(IndependentInvestigation 553(2007).
+or better than those of real-world infrastructure
+Board,OfficeofRailRegulation,London,2006). 22. A.Tero,R.Kobayashi,T.Nakagaki,PhysicaA363,115
+networks.Furthermore,themodelhasanumber 7. R.Albert,H.Jeong,A.-L.Barabási,Nature406,378(2000). (2006).
+oftunableparametersthatallowadjustmentof 8. R.Carvalhoetal.,http://arxiv.org/abs/0903.0195(2009). 23. T.Nakagaki,H.Yamada,T.Ueda,Biophys.Chem.84,
+thebenefit/costratiotoincreasespecificfeatures, 9. D.Bebber,J.Hynes,P.Darrah,L.Boddy,M.Fricker, 195(2000).
+Proc.R.Soc.LondonSer.B274,2307(2007). 24. I.Akyildiz,X.Wang,W.Wang,Comput.Netw.47,445
+suchasfaulttoleranceortransportefficiency,while
+10. J.Buhletal.,Behav.Ecol.Sociobiol.63,451(2009). (2005).
+keepingcostslow.Suchamodelmayprovidea 11. T.Nakagaki,H.Yamada,M.Hara,Biophys.Chem.107, 25. SupportedbyMEXTKAKENHIgrants18650054and
+usefulstartingpointtoimproveroutingprotocols 1(2004). 20300105,HumanFrontierScienceProgramgrant
+andtopologycontrolforself-organizednetworks 12. T.Nakagaki,R.Kobayashi,Y.Nishiura,T.Ueda, RGP51/2007,EUFramework6contract12999(NEST),
+Proc.R.Soc.LondonSer.B271,2305(2004). andNERCgrantA/S/882.
+suchasremotesensorarrays,mobileadhocnet-
+13. A.Colornietal.,Int.Trans.Oper.Res.3,1(1996).
+works,orwirelessmeshnetworks(24).
+14. A.Takamatsu,E.Takaba,G.Takizawa,J.Theor.Biol.256, SupportingOnlineMaterial
+29(2009).
+www.sciencemag.org/cgi/content/full/327/5964/439/DC1
+15. T.Nakagaki,H.Yamada,Á.Tóth,Nature407,470(2000). Figs.S1andS2
+ReferencesandNotes 16. T.Nakagakietal.,Phys.Rev.Lett.99,068104(2007).
+1. R.Albert,I.Albert,G.Nakarado,Phys.Rev.E69, 17. T.Nakagaki,H.Yamada,Á.Tóth,Biophys.Chem.92,47 17June2009;accepted20November2009
+025103R(2004). (2001). 10.1126/science.1177894
+Measurement of Universal Therefore,integrationovertheentirecloudpro-
+vides only indirect information on the relation-
+ship between each individual thermodynamic
+Thermodynamic Functions for a
+quantity and the particle density. To determine
+theuniversalthermodynamicfunctionsusingsuch
+Unitary Fermi Gas an inhomogeneous system, the thermodynamic
+Munekazu Horikoshi,1* Shuta Nakajima,2 MasahitoUeda,1,2 TakashiMukaiyama1,3
+Thermodynamicproperties ofmattergenerally dependonthedetailsofinteractions betweenits
+constituentparts.However,inaunitaryFermigaswherethescattering lengthdiverges,
+thermodynamicsisdetermined throughuniversalfunctionsthatdependonlyonthe particle
+densityandtemperature. Byusingonlythe generalformofthe equationofstateandthe
+equationofforcebalance, wemeasuredthelocalinternalenergyofthetrappedgasasa
+functionof theseparameters.Otheruniversalfunctions,suchasthosecorrespondingto the
+Helmholtzfreeenergy, chemicalpotential,andentropy,werecalculatedthroughgeneral
+thermodynamicrelations.The criticalparameters werealsodeterminedatthesuperfluid
+transitiontemperature. These resultsapplytoallstronglyinteracting fermionicsystems,
+includingneutron starsandnuclearmatter.
+Degenerate two-component Fermi systems diverges,theuniversalthermodynamicsthatde-
+with large scattering lengths are of great scribesthesesystemsdependsonlyontheparticle
+interestindiversesettingssuchasneutron density,n,andtemperature,T.Thisassumptionis Fig. 1. Universal function of the internal en-
+stars(1–3),quark-gluonplasma(4),highcritical referred to as the “universal hypothesis (UH)” ergy.Universalfunctionsoftheinternalenergy
+temperature (T c ) superconductors (5), and reso- (19,20). (f E[q] = E/Ne F ) plotted for an ideal Fermi gas
+(green diamonds) and for a unitary Fermi gas
+nantlyinteractingcoldFermigasesnearFeshbach Inthecontext ofcold atoms,two fermionic
+resonances(6–18).Eventhoughthetemperature alkali elements, 6Li and 40K, have been suc- (red circles).Thedataare averaged overa suit-
+ofthesesystemsrangeswidelyfrom10−7Kfor cessfullyusedtoexplorethephysicsoftheuni- able temperature range. The error bars show
+coldatomstomorethan1012Kforquark-gluon tarity limit (6–18). This was possible because the data spread of one standard deviation
+originating mainly from statistical errors. The
+plasma, they exhibit remarkably similar behav- ofthetunabilityofthefermion-fermioninterac-
+green dashed curve shows the theoretical uni-
+iorattheunitaritylimit.Asthescatteringlength tion and the stability of ultracold fermionic
+versalfunction forthe idealFermigas, whereas
+gases near Feshbach resonances (21, 22).
+theredsolidcurveshowsthemeasureduniver-
+1JapanScienceandTechnologyAgency,ExploratoryResearchfor Recently, a comparison of the entropy-energy sal function for the unitary Fermi gas. The red
+Advanced Technology (ERATO), Macroscopic Quantum Control relations extracted from experimental measure- solidcurveisobtainedbyfittingthedatarepre-
+B P 2 a D n r u o d e n j p e k a c E y t r o n , t - g m k 2 i u n e - , e n 1 e T t 1 o r - i k n 1 o y f g 6 o , P 1 Y U h 1 a n y 3 y s i o - v ic 0 i e , s 0 r , s 3 B it 3 U u y , n n o J k i a v f y e p o r E a - s k l n i e t u . y c , t 3 r C o o T e - f o n C k t o y T e m o o r k m f y o 1 o u r 1 , n 3 F i r - 7 c o 8 a - n 6 3 ti t 5 - o i 1 e 6 n r , s, S H J c o 1 a ie n p -5 n g a c - n o 1 e , . u ( m 2 n e 3 i n v ). t e s r H s o a o n l w b t e h o v e th e rm r, 6 o L b d i e y a c n n a a u d m s 4 e i 0 c K a s p u a r n t o i t t v h a i e r d y e u d F n e e it v r a m i r d i i t e y n g c a li e s m o i i s f t 3 w se ( h n 1 e t r e + e d b b b ) y / i 5 s re t = h d e 0 ci u . r 2 n c 5 l i e v s e a r t s s o a th l th e p a a l t o ra i w t m - l t e e e v t m e e r l p s ( e 1 o r f a 5 f t ) u , a r t a e n f E d l [ i 0 m a ] p i = t - ,
+Chofugaoka,Chofu,Tokyo182-8585,Japan. realizedinaharmonictrap,theinhomogeneous proaches the theoretical value obtained at the
+*To whom correspondence should be addressed. E-mail:
+atomic density distribution causes the thermo- high-temperaturelimit(20).Thebluesquarecor-
+hori@sogo.t.u-tokyo.ac.jp dynamic quantities to be position-dependent. respondstothecriticalpoint.
+442 22JANUARY 2010 VOL327 SCIENCE www.sciencemag.org
+Downloaded
+from
+https://www.science.org
+at
+University
+of
+California
+Davis
+on
+July
+02,
+2026
+
+===== PAGE 5 =====
+Rules for Biologically Inspired Adaptive Network Design
+Atsushi Tero, Seiji Takagi, Tetsu Saigusa, Kentaro Ito, Dan P. Bebber, Mark D. Fricker, Kenji Yumiki, Ryo Kobayashi, and
+Toshiyuki Nakagaki
+Science 327 (5964), . DOI: 10.1126/science.1177894
+Miniature Transport Engineers
+In its vegetative phase, the slime mold Physarum polycephalum “slimes” its way through the world seeking food.
+As it explores, it links previously found food sources with tubular structures. Tero et al. (p. 439) report that if food
+sources are deposited on a plate in a pattern corresponding in miniature to the positions of the cities that surround
+Tokyo, the resulting network of Physarum tubules that develops is rather similar in structure to the railroad network that
+connects the Japanese cities. A model was produced that describes the adaptive network development displayed by
+the slime mold. This biologically inspired model might provide insight into how to implement properties like resistance
+of transport systems to local failures into similar human-designed systems.
+View the article online
+https://www.science.org/doi/10.1126/science.1177894
+Permissions
+https://www.science.org/help/reprints-and-permissions
+Use of this article is subject to the Terms of service
+Science (ISSN 1095-9203) is published by the American Association for the Advancement of Science. 1200 New York Avenue NW,
+Washington, DC 20005. The title Science is a registered trademark of AAAS.
+Copyright © 2010, American Association for the Advancement of Science
+Downloaded
+from
+https://www.science.org
+at
+University
+of
+California
+Davis
+on
+July
+02,
+2026
