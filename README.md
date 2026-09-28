@@ -1,4 +1,4 @@
-# 黏菌自适应网络项目 — README
+# PhysarumFlow — 黏菌自适应网络建模
 
 生物数学建模期末作业：复现 Tero et al. (2010) Science 论文，并做假说实验。
 
@@ -31,8 +31,8 @@ project/
 ## 一键复现
 
 ```bash
-git clone https://github.com/CyanTachyon/bio-final.git
-cd bio-final
+git clone https://github.com/CyanTachyon/PhysarumFlow.git
+cd PhysarumFlow
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements.txt
